@@ -1,0 +1,156 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.bg-header {
+  background-image: url('./1750143743003.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+span{
+  color: #D9299B;
+}
+
+p{
+  text-align: center;
+  font-size: 15px;
+}
+
+h2{
+  text-align: center;
+  color: #D9299B;
+}
+
+.btn-light {
+  background-color: #D9299B !important;
+  border-color: #D9299B !important;
+  color: #fff;
+}
+
+
+.custom-bg {
+  background-color: #D9299B;
+  color: #fff;
+}
+
+.testimonial-card {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.stars {
+  font-size: 24px;
+  color: #ffd700;
+  margin-bottom: 10px;
+}
+
+.testimonial-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.testimonial-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.testimonial-position {
+  font-size: 16px;
+  color: #666;
+}
+
+.form-container {
+      margin: 20px;
+      padding: 15px;
+      background: deeppink;
+      color: white;
+      box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+    }
+    .input-cnt {
+      display: flex; /* display the icon and the input in a line */
+      margin-bottom: 15px;
+    }
+    .input-cnt:last-child {
+      margin-bottom: 0px;
+    }
+    .input-cnt > i {
+      min-width: 40px; /* set a minimum width for the icon */
+      padding: 10px; /* make sure the icon is centered vertically */
+      text-align: center; /* horizontally center the icon */
+      background: deeppink;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      color: #fff;
+    }
+    /* change styles when focused */
+    .input-cnt:hover > i {
+      background: lightpink;
+      color: white;
+    }
+    /* style the input and textarea */
+    .input-cnt > input[type="text"], .input-cnt > textarea {
+      outline: none;
+      border: none;
+      padding: 10px;
+      border: 1px solid lightgrey;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 0px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 0px;
+      width: 100%;
+    }
+    /* center textarea icon and increase size */
+    .textarea-icon {
+      padding: 60px 10px !important; /* top and bottom paddings are set to 60px */
+    }
+    /* style the submit button */
+    .input-cnt > input[type="Submit"] {
+      border: none;
+      border-radius: 20px;
+      outline: none;
+      width: 75%;
+      margin: 0 auto;
+      font-size: 105%;
+      padding: 8px;
+      color: #fff;
+      background: deeppink;
+      transition-duration: .5s;
+    }
+    /* add a hover effect for the submit button */
+    .input-cnt > input[type="Submit"]:hover {
+      color: white;
+      background: lightpink;
+    }
+    
+    .footer{
+  background: deeppink;
+  color: #fff;
+  padding: 2rem 4rem;
+  text-align: center;
+  margin: -2rem -2rem;
+}
+
+.footer .socials a{
+  color: #000;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
